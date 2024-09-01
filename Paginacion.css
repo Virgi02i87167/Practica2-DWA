@@ -12,12 +12,17 @@
     color: chartreuse;
     padding: 10px 15px;
     text-decoration: none;
-    border: 1px cornflowerblue;
+    border: 1px solid cornflowerblue;
     margin: 0 5px;
     border-radius: 5px;
 }
 
 .pagination li a:hover {
     background-color: aquamarine;
-    color: rgb(4, 82, 47);
+    color: #fff;
+}
+
+.pagination li a:active {
+    background-color: #0056b3;
+    color: #fff;
 }
